@@ -1,0 +1,85 @@
+BANZAI DISPLAY FONTS - NOTICES AND PROVENANCE
+=============================================
+
+This folder ships the display faces selectable in the addon's Display Font
+setting. The Information Font option uses the addon's existing small font and
+adds no file here. Every file below is the unmodified font file as preserved in
+the BANZAI source archive; the SHA-256 is the exact shipped file.
+
+Distribution basis: the BANZAI project owner approved shipping these fonts
+inside BANZAI UI and BanzaiSland for the Retail release (2026-11-08). The
+licence or readme text supplied with each font download is reproduced here
+verbatim where one was included in the download. No font is claimed to be
+public domain. Fonts remain the property of their respective authors.
+
+Only the display faces listed below are included in this addon.
+
+---------------------------------------------------------------------------
+1. Shojumaru (BANZAI Default, shown at 105 %)
+   File ............ Shojumaru-Regular.ttf
+   SHA-256 ......... 8607110ef45da664861c72d95fb804c3609169ebfd2a380cb47b353a7b241c75
+   Author .......... Brian J. Bonislawsky DBA Astigmatic (AOETI)
+   Source .......... https://www.1001fonts.com/shojumaru-font.html
+   Licence ......... SIL Open Font License 1.1 (full text: OFL.txt in this
+                     folder). Reserved Font Name "Shojumaru". The font is not
+                     sold on its own and is not modified.
+
+2. Ryujin Attack
+   File ............ RyujinAttack.otf
+   SHA-256 ......... a6d8aa6b08da6bef1b7a94f574dd92983477b1f282c94b350956578f627c06ac
+   Author .......... Jetsmax
+   Source .......... https://www.1001fonts.com/ryujin-attack-font.html
+   Supplied text ... RyujinAttack-README.txt (verbatim from the download):
+                     describes the font as free to use; no further licence
+                     text was included in the download.
+
+3. Gang of Three
+   File ............ go3v2.ttf
+   SHA-256 ......... 8bb0d23e78dc94851b86732c28b9e0da1724893ba9301483bfdfcea50c19fac4
+   Author .......... Vic Fieger
+   Source .......... https://www.1001fonts.com/gang-of-three-font.html
+   Supplied text ... none was included in the download archive. Terms are those
+                     published by the author at the source page.
+
+4. Osaka Sans (Osaka-Sans Serif)
+   File ............ osaka-re.ttf
+   SHA-256 ......... 79f10ac3196dcdb5925504315c648cab9df286994da4f8d49156e016d01f5d4d
+   Author .......... not identified in the download archive (see source page)
+   Source .......... https://www.1001fonts.com/osaka-sans-serif-font.html
+   Supplied text ... OsakaSans-1001fonts-FFC-EULA.txt (verbatim: the 1001Fonts
+                     Free For Commercial Use licence included in the download).
+                     The font is unmodified and is not sold.
+
+5. Sekaiwo
+   File ............ Sekaiwo-Regular.otf
+   SHA-256 ......... c3d71f31790becff50f42292d8edcb3123ac0a165c8ff196d6795e5eae17ccb6
+   Author .......... Tkzgraphic
+   Source .......... https://www.1001fonts.com/sekaiwo-font.html
+   Supplied text ... Sekaiwo-READ-ME.txt (verbatim): free for personal and
+                     commercial use; author contact included.
+
+6. Xangda Shiny
+   File ............ Xangda Shiny.ttf
+   SHA-256 ......... 13d7561e1a52658f7bbec8e12282f629c9ada5c00bc0b88b7d51ef1c9dadb87f
+   Author .......... starinkbrush
+   Source .......... https://www.dafont.com/xangda-shiny.font
+   Supplied text ... none was included in the download archive. Terms are those
+                     published by the author at the source page. This face has
+                     letters only (no digits or punctuation): strings that need
+                     them are drawn in the Information Font.
+
+7. Ninja Naruto (v2)
+   File ............ njnaruto.ttf
+   SHA-256 ......... d7dac597f70d9e53bc6617e364c5f4e705767ea8be2c678995249cfe179d9335
+   Author .......... sk89q / The Risen Realm and Keiichi Anime Forever
+   Source .......... https://resourceboy.com/fonts/ninja-naruto-font/
+   Supplied text ... NinjaNaruto-readme.txt (verbatim): may be used for personal
+                     or commercial purposes and distributed unmodified and free
+                     of charge; may not be sold or modified. The readme credits
+                     the original type to Kishimoto Masashi, Shueisha and TV
+                     Tokyo. The font is shipped unmodified and free of charge.
+---------------------------------------------------------------------------
+
+Automatic selection uses the BANZAI Default face only when it supports every
+character of a string; otherwise the whole string is drawn in the Information
+Font. A face the game cannot load also falls back to the Information Font.

@@ -1,0 +1,59 @@
+{
+  "about": "Public provenance for the BANZAI-owned class identity runtime textures included with BanzaiSland.",
+  "owner": "Darren (BANZAI UI)",
+  "artwork": "Original class identity artwork created for BANZAI; not Blizzard art.",
+  "classes": {
+    "deathknight": {
+      "runtimeFile": "media/BanzaiIdentity/deathknight.tga",
+      "sha256": "98af9b332713118b1958fe29f6e39d0a5d0b30f5a294b212686095fb81f6a6c5"
+    },
+    "demonhunter": {
+      "runtimeFile": "media/BanzaiIdentity/demonhunter.tga",
+      "sha256": "6c31fa8ab95a87e51d085def84c768caaccf7739ac22f8976996b8ab80014140"
+    },
+    "druid": {
+      "runtimeFile": "media/BanzaiIdentity/druid.tga",
+      "sha256": "0662d85a187a02761eb74a76da34821eaec435657d14c1634e5e2b9dcde62298"
+    },
+    "evoker": {
+      "runtimeFile": "media/BanzaiIdentity/evoker.tga",
+      "sha256": "58d3ae8a163b236188412534625edbf9b695c0f2b89efba113f7927e9abbe46e"
+    },
+    "hunter": {
+      "runtimeFile": "media/BanzaiIdentity/hunter.tga",
+      "sha256": "ca7d3683ff6f7e422609c6631fcf4db95d3c98f335d16830f5c6207002d2b0c6"
+    },
+    "mage": {
+      "runtimeFile": "media/BanzaiIdentity/mage.tga",
+      "sha256": "23e7d34f29c2f5e2fb604df7f3f9224d67cbf499104e655430faddb00c7b5393"
+    },
+    "monk": {
+      "runtimeFile": "media/BanzaiIdentity/monk.tga",
+      "sha256": "9f0d05bfea94ef8a6783a7eb8121209ff789a05f183401548f96887c9b951d4c"
+    },
+    "paladin": {
+      "runtimeFile": "media/BanzaiIdentity/paladin.tga",
+      "sha256": "61c4933f6e9497915befda5f6a7617da6d3c27c2c1b2598cf13ebc7c3a7f86cf"
+    },
+    "priest": {
+      "runtimeFile": "media/BanzaiIdentity/priest.tga",
+      "sha256": "7a0315513ceb0ba0bb3f7791ffa78e95421e6228a8a69e7f2e0ea09574a67852"
+    },
+    "rogue": {
+      "runtimeFile": "media/BanzaiIdentity/rogue.tga",
+      "sha256": "f68dbe43286dcef5bf944b1d866747721488a9a33cf1032d7519be4c6bef265d"
+    },
+    "shaman": {
+      "runtimeFile": "media/BanzaiIdentity/shaman.tga",
+      "sha256": "5eed02007cd77511b917d2841fe578560c375e2947bf44593a9163127d73c423"
+    },
+    "warlock": {
+      "runtimeFile": "media/BanzaiIdentity/warlock.tga",
+      "sha256": "c5b20decc2821c6e9dcfbbfe588ae87c605fd55bbf70566c7a292eb1bf70bb1f"
+    },
+    "warrior": {
+      "runtimeFile": "media/BanzaiIdentity/warrior.tga",
+      "sha256": "f72aa70dba6d2668360d8ea3f141546360089eeca75eb430eb5015a32bed7db9"
+    }
+  }
+}

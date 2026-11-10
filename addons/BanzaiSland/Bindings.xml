@@ -1,0 +1,26 @@
+<Bindings>
+    <Binding name="BANZAISLAND_CARD1" header="BANZAISLAND" category="ADDONS">
+        BanzaiSland_CardButton(1)
+    </Binding>
+    <Binding name="BANZAISLAND_CARD2" category="ADDONS">
+        BanzaiSland_CardButton(2)
+    </Binding>
+    <Binding name="BANZAISLAND_CARD3" category="ADDONS">
+        BanzaiSland_CardButton(3)
+    </Binding>
+    <Binding name="BANZAISLAND_CARD4" category="ADDONS">
+        BanzaiSland_CardButton(4)
+    </Binding>
+    <Binding name="BANZAISLAND_CARDLAST" category="ADDONS">
+        BanzaiSland_CardButton("last")
+    </Binding>
+    <Binding name="BANZAISLAND_DISMISS" category="ADDONS">
+        BanzaiSland_DismissCard()
+    </Binding>
+    <Binding name="BANZAISLAND_DETAILS" category="ADDONS">
+        BanzaiSland_ToggleDetails()
+    </Binding>
+    <Binding name="BANZAISLAND_DND" category="ADDONS">
+        BanzaiSland_ToggleDND()
+    </Binding>
+</Bindings>

@@ -1,0 +1,68 @@
+## Interface: 120105
+## Title: BanzaiSland
+## Notes: Contextual Activities, Notifications & Progression. A BANZAI-themed activity HUD: your XP bar plus cards for loot, rolls, invites, alerts, dungeon runs and more. GPLv3 fork of Island 3.7.0 by Devin (subtlegrind); independently maintained.
+## Author: Darren (BANZAI); upstream Island by Devin
+## Version: 1.0.0
+## X-License: GPLv3
+## X-Upstream: Island 3.7.0 (CurseForge 1734604 / file 9461050)
+## X-Website: <SOURCE-URL>
+## SavedVariables: BanzaiSlandDB
+## SavedVariablesPerCharacter: BanzaiSlandCharDB
+## OptionalDeps: RareScanner, Pigeon, TomTom, RXPGuides, Polestar, Spoken, ElvUI, EllesmereUI, ItemTree, Lootified, Pawn, LibSharedMedia-3.0
+## IconTexture: Interface\AddOns\BanzaiSland\Media\Banzai\BanzaiIcon
+
+Locale.lua
+Locales\deDE.lua
+Locales\esES.lua
+Locales\esMX.lua
+Locales\frFR.lua
+Locales\koKR.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+Guard.lua
+Client.lua
+Core.lua
+Theme.lua
+FontBakeoff.lua
+Island.lua
+Renderer.lua
+Loot.lua
+Toasts.lua
+Alerts.lua
+Zone.lua
+Builder.lua
+Prompts.lua
+Confirmations.lua
+Live.lua
+Activities.lua
+Nav.lua
+Polestar.lua
+Voice.lua
+Instance.lua
+Seals.lua
+Extras.lua
+Talents.lua
+Legacy.lua
+LegacyChallenges.lua
+Actions.lua
+Group.lua
+Vendor.lua
+Quiet.lua
+Keys.lua
+Pad.lua
+CatchUp.lua
+Shelf.lua
+Retail.lua
+RetailQueue.lua
+RetailLoot.lua
+RetailDialogue.lua
+Extensions.lua
+Launcher.lua
+Developer.lua
+Packages.lua
+PackagesUI.lua
+Preview.lua
+Settings.lua
+Movers.lua

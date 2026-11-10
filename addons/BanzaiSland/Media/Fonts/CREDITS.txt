@@ -1,0 +1,3 @@
+Open Sans, Copyright 2011 The Open Sans Project Authors (https://github.com/opensans).
+OpenSans-Medium.ttf is licensed under the SIL Open Font License 1.1 (see OFL.txt).
+OpenSans-Bold.ttf and OpenSans-ExtraBold.ttf are licensed under the Apache License 2.0 (see LICENSE-OpenSans-Apache-2.0.txt).
