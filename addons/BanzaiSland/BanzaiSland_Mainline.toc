@@ -3,6 +3,8 @@
 ## Notes: Contextual Activities, Notifications & Progression. A BANZAI-themed activity HUD: your XP bar plus cards for loot, rolls, invites, alerts, dungeon runs and more. GPLv3 fork of Island 3.7.0 by Devin (subtlegrind); independently maintained.
 ## Author: Darren (BANZAI); upstream Island by Devin
 ## Version: 1.0.0
+## X-Curse-Project-ID: 1793377
+## X-Wago-ID: QN5JMd6B
 ## X-License: GPLv3
 ## X-Upstream: Island 3.7.0 (CurseForge 1734604 / file 9461050)
 ## X-Website: <SOURCE-URL>

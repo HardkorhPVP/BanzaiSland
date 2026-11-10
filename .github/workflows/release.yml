@@ -1,0 +1,79 @@
+name: Publish stable release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out release source
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Allow only future stable tags
+        id: tag
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          if [[ "$RELEASE_TAG" =~ ^v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]]; then
+            major=${BASH_REMATCH[1]}
+            minor=${BASH_REMATCH[2]}
+            patch=${BASH_REMATCH[3]}
+            if (( major > 1 || (major == 1 && minor > 0) || (major == 1 && minor == 0 && patch > 0) )); then
+              echo "publish=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          echo "publish=false" >> "$GITHUB_OUTPUT"
+          echo "Skipping non-stable, malformed, or already-published release tag: $RELEASE_TAG"
+
+      - name: Verify release version matches both add-on TOCs
+        if: steps.tag.outputs.publish == 'true'
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          version="${RELEASE_TAG#v}"
+          for toc in \
+            addons/BanzaiSland/BanzaiSland.toc \
+            addons/BanzaiSland/BanzaiSland_Mainline.toc; do
+            toc_version="$(sed -n 's/^## Version:[[:space:]]*//p' "$toc")"
+            if [[ "$toc_version" != "$version" ]]; then
+              echo "$toc has version '$toc_version'; expected '$version' from $RELEASE_TAG" >&2
+              exit 1
+            fi
+          done
+
+      - name: Require publishing secrets
+        if: steps.tag.outputs.publish == 'true'
+        shell: bash
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_KEY }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          missing=()
+          [[ -n "$CF_API_TOKEN" ]] || missing+=("CF_API_KEY")
+          [[ -n "$WAGO_API_TOKEN" ]] || missing+=("WAGO_API_TOKEN")
+          if (( ${#missing[@]} )); then
+            printf 'Configure repository Actions secret(s): %s\n' "${missing[*]}" >&2
+            exit 1
+          fi
+
+      - name: Package and publish to GitHub, CurseForge, and Wago
+        if: steps.tag.outputs.publish == 'true'
+        uses: BigWigsMods/packager@v2
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_KEY }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}

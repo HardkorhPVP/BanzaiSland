@@ -1,0 +1,14 @@
+package-as: BanzaiSland
+ignore:
+  - .github
+  - docs
+  - release-notes
+  - CHANGES-FROM-ISLAND.md
+  - LICENSE
+  - NOTICE
+  - README.md
+  - SOURCE-PROVENANCE.md
+  - THIRD_PARTY_NOTICES.md
+  - UPSTREAM.md
+move-folders:
+  BanzaiSland/addons/BanzaiSland: BanzaiSland
