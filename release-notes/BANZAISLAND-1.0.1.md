@@ -1,4 +1,4 @@
-# BanzaiSland 1.0.1 - release candidate
+# BanzaiSland 1.0.1
 
 - First Forever-capable update: Retail 12.1.5 and Forever 1.60.1 use the same addon source and package.
 - Fix the selected Mainline TOC to declare `120105, 16001`. This correction passed a real Forever development-build test; changing only the fallback TOC was insufficient.
@@ -7,7 +7,7 @@
 - Glass, Solid, Hardkorh Parchment and its ink palette, chassis, cards, bubbles, timer rings, prompts, settings, profiles, class artwork and launcher geometry are unchanged from final Retail 1.0.0.
 - No required dependencies. The original Island addon must remain disabled.
 
-The complete 1.0.1 candidate is not published and requires final live Forever validation. No current release is replaced or rebuilt. The existing stable-tag GitHub workflow and CurseForge/Wago project IDs are retained.
+The complete 1.0.1 package passed Darren's final real-client validation on Forever 1.60.1 on 2026-11-10: **FOREVER BANZAISLAND PASS**. The validated runtime source is commit `2b971fb`; subsequent release-finalization changes are documentation only. The existing 1.0.0 release and package are not replaced or rebuilt. The stable-tag GitHub workflow publishes this first automated update to GitHub, CurseForge and Wago.
 
 ## Offline validation
 
@@ -16,5 +16,6 @@ The complete 1.0.1 candidate is not published and requires final live Forever va
 - Source-controlled TOC regression passed. Both clients were simulated with the selected Mainline TOC, not the fallback.
 - Local package audit: 168 files, one `BanzaiSland` root, every packaged file matches its build manifest, seven display faces plus three Information Font weights, all font hashes/notices preserved, no retired font binaries.
 - All runtime Lua and visual/font assets match the final Retail source. Relative to the accepted 1.0.0 ZIP, 66 text files differ only in Git checkout line endings; two notices/provenance files retain the already-approved public sanitization. No visuals or runtime logic were redesigned.
+- Final live Forever validation: PASS. Retail regression: affected simulations passed; no new real-client Retail validation is claimed.
 
 BanzaiSland is a GPLv3 fork of Island by Devin/subtlegrind. It is independently maintained and is not supported by the upstream Island author.

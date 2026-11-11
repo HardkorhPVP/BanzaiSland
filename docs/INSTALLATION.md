@@ -1,6 +1,6 @@
 # Installing BanzaiSland
 
-BanzaiSland 1.0.1 is a release candidate for **Retail 12.1.5** (Interface 120105) and **Forever 1.60.1** (Interface 16001). The development-build TOC fix passed a real Forever test; the complete candidate awaits final live validation and is not published yet.
+BanzaiSland 1.0.1 supports **Retail 12.1.5** (Interface 120105) and **Forever 1.60.1** (Interface 16001). The complete package passed final real-client Forever validation; affected Retail and Forever simulations passed.
 
 > **One rule before anything else:** BanzaiSland and the original **Island** addon must not run at the same time. BanzaiSland is built from Island and does the same job. If both are enabled, BanzaiSland prints one line in chat at login and stays off for that session - nothing breaks, but you will only see Island. Disable or remove one of them.
 

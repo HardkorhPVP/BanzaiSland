@@ -6,12 +6,14 @@ The GitHub Action verifies the tag/version match, packages the `BanzaiSland` fol
 
 Required repository Actions secrets: `CF_API_KEY` and `WAGO_API_TOKEN`. GitHub Releases use the workflow's `GITHUB_TOKEN` with `contents: write`. See the repository Settings > Secrets and variables > Actions page; never put token values in source or logs.
 
-## 1.0.1 Retail / Forever candidate
+## 1.0.1 Retail / Forever release
 
 Both TOCs must declare version `1.0.1` and interfaces `120105, 16001` (order is immaterial). Forever is in the Mainline family and selects `BanzaiSland_Mainline.toc` ahead of the unsuffixed fallback. Do not narrow the Mainline interface to Retail again; the dual-interface line has passed a real Forever 1.60.1 test.
 
 The addon source already contains the final 1.0.0 font registry, seven approved display faces and their notices. BANZAI Default is Shojumaru at 105%; retired saved font choices migrate to that default. No development-build font files should be overlaid onto this source.
 
-Before tagging, validate Retail and Forever simulations using the selected Mainline TOC, font selection/fallback and profile migration, materials, launcher, fresh install and upgrade. Audit the package against the addon source, including both TOCs and all font hashes/notices. Validate the complete candidate in the actual Forever client; the earlier TOC-only PASS does not replace this check. Keep the existing 1.0.0 release and its asset unchanged. Do not push `v1.0.1` until final live validation and explicit publication approval.
+Before tagging, validate Retail and Forever simulations using the selected Mainline TOC, font selection/fallback and profile migration, materials, launcher, fresh install and upgrade. Audit the package against the addon source, including both TOCs and all font hashes/notices. Validate the complete candidate in the actual Forever client; the earlier TOC-only PASS does not replace this check. Keep the existing 1.0.0 release and its asset unchanged.
+
+For 1.0.1, final live validation and publication approval were received on 2026-11-10 as `FOREVER BANZAISLAND PASS`. The validated runtime commit is `2b971fb`; release-finalization documentation must not change its addon files. Both required repository secret names are configured; never read or expose their values.
 
 Run `node --test tests/toc.test.js` for the source-controlled TOC/interface regression check. Tests are excluded from the automation package.

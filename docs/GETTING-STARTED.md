@@ -46,7 +46,7 @@ Each character uses a **profile**. New characters share the **Default** profile;
 
 ## Retail and Forever
 
-The 1.0.1 candidate declares Retail Interface 120105 and Forever Interface 16001. Retail shows its own activities: Renown, Warband, Great Vault, Mythic+, Delves, Dungeon Finder proposals and Talking Head cards. Forever shows only the activities its client provides. The Mainline TOC fix passed a real Forever test; final live validation of the complete font-synchronized candidate is pending.
+1.0.1 declares Retail Interface 120105 and Forever Interface 16001. Retail shows its own activities: Renown, Warband, Great Vault, Mythic+, Delves, Dungeon Finder proposals and Talking Head cards. Forever shows only the activities its client provides. The complete font-synchronized package passed final real-client Forever validation.
 
 ## BANZAI UI
 

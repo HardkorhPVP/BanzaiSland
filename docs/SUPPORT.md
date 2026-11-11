@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | BanzaiSland version | `/bsl status` prints it |
-| Client | the game version and flavor (1.0.1 candidate: Retail 12.1.5 / Forever 1.60.1) |
+| Client | the game version and flavor (1.0.1: Retail 12.1.5 / Forever 1.60.1) |
 | Look | material, chassis, accent, display font (`/bsl status` prints these too) |
 | What happened | one or two sentences; what you expected instead |
 | How to see it again | steps, if you know them |

@@ -1,10 +1,10 @@
 # Known issues
 
-Current as of the BanzaiSland 1.0.1 release candidate. This list is kept honest: if it is not here, we do not know about it - tell us ([SUPPORT.md](SUPPORT.md)).
+Current as of BanzaiSland 1.0.1. This list is kept honest: if it is not here, we do not know about it - tell us ([SUPPORT.md](SUPPORT.md)).
 
 ## Forever validation
 
-- The 1.0.1 Mainline dual-interface correction passed a real Forever 1.60.1 development-build test. The complete final-font candidate still awaits live validation before publication. The published 1.0.0 package remains Retail-only and unchanged.
+- The 1.0.1 Mainline dual-interface correction and complete final-font package passed final real-client Forever 1.60.1 validation. The published 1.0.0 package remains Retail-only and unchanged.
 - When upgrading the Forever development build, replace its addon folder rather than merging; otherwise retired font files can remain on disk.
 
 ## Behaviour to know about
