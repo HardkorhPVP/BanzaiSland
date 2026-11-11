@@ -3,6 +3,7 @@ ignore:
   - .github
   - docs
   - release-notes
+  - tests
   - CHANGES-FROM-ISLAND.md
   - LICENSE
   - NOTICE

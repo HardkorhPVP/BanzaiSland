@@ -26,7 +26,7 @@ Other addons can send their own cards and bubbles through BanzaiSland, so everyt
 
 ### Packages (off by default; not available in this Retail release)
 
-BanzaiSland can run small **packages** - saved text that registers as an extension. This is developer territory: packages run user-supplied code in a sandbox and only after you switch **Allow package code** on under General. The switch is off unless you turn it on, and packages do not run on Retail; they belong to the WoW Forever milestone that follows this release.
+BanzaiSland can run small **packages** - saved text that registers as an extension. This is developer territory: packages run user-supplied code in a sandbox and only after you switch **Allow package code** on under General. The switch is off unless you turn it on. Packages do not run on Retail; they are client-gated to Forever in the 1.0.1 candidate. Compatibility testing does not validate third-party package code.
 
 ## For addon authors
 

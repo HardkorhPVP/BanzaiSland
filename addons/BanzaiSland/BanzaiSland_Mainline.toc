@@ -1,8 +1,8 @@
-## Interface: 120105
+## Interface: 120105, 16001
 ## Title: BanzaiSland
 ## Notes: Contextual Activities, Notifications & Progression. A BANZAI-themed activity HUD: your XP bar plus cards for loot, rolls, invites, alerts, dungeon runs and more. GPLv3 fork of Island 3.7.0 by Devin (subtlegrind); independently maintained.
 ## Author: Darren (BANZAI); upstream Island by Devin
-## Version: 1.0.0
+## Version: 1.0.1
 ## X-Curse-Project-ID: 1793377
 ## X-Wago-ID: QN5JMd6B
 ## X-License: GPLv3

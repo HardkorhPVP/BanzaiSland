@@ -44,9 +44,9 @@ Open **Preview** and press any scenario - XP progression, Reputation, Loot, Read
 
 Each character uses a **profile**. New characters share the **Default** profile; you can create more (for a healer and a tank, for example) and assign them per character. [PROFILES.md](PROFILES.md)
 
-## Retail
+## Retail and Forever
 
-This release runs on World of Warcraft Retail (Interface 120105) and shows the Retail things: Renown, Warband, Great Vault, Mythic+, Delves, Dungeon Finder proposals, Talking Head cards. WoW Forever compatibility is the next milestone and is not part of this release.
+The 1.0.1 candidate declares Retail Interface 120105 and Forever Interface 16001. Retail shows its own activities: Renown, Warband, Great Vault, Mythic+, Delves, Dungeon Finder proposals and Talking Head cards. Forever shows only the activities its client provides. The Mainline TOC fix passed a real Forever test; final live validation of the complete font-synchronized candidate is pending.
 
 ## BANZAI UI
 

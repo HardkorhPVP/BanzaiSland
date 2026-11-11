@@ -39,7 +39,9 @@ The settings window shows a **Retail** section or a **Legacy** section depending
 
 ## Versions
 
-`/bsl status` prints the client BanzaiSland detected and its version. The two TOC files inside the addon folder (`BanzaiSland.toc`, `BanzaiSland_Mainline.toc`) are both meant to be there: each client reads its own.
+`/bsl status` prints the client BanzaiSland detected and its version. Both Retail and Forever belong to the Mainline family and select `BanzaiSland_Mainline.toc` before the plain fallback `BanzaiSland.toc`. In the 1.0.1 candidate both TOCs declare interfaces `120105, 16001`, with identical runtime load order. No `_Forever.toc` or `AllowLoadGameType` restriction is needed.
+
+The Mainline dual-interface correction passed a real Forever 1.60.1 development-build test. The full 1.0.1 font-synchronized package still awaits final live validation. Retail-only activities remain client-gated; compatibility does not promise every activity exists on both clients.
 
 ## Screenshots
 

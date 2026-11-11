@@ -1,6 +1,6 @@
 # Installing BanzaiSland
 
-BanzaiSland 1.0.0 is for **World of Warcraft Retail** (Interface 120105). WoW Forever compatibility is the next milestone and is not part of this release.
+BanzaiSland 1.0.1 is a release candidate for **Retail 12.1.5** (Interface 120105) and **Forever 1.60.1** (Interface 16001). The development-build TOC fix passed a real Forever test; the complete candidate awaits final live validation and is not published yet.
 
 > **One rule before anything else:** BanzaiSland and the original **Island** addon must not run at the same time. BanzaiSland is built from Island and does the same job. If both are enabled, BanzaiSland prints one line in chat at login and stays off for that session - nothing breaks, but you will only see Island. Disable or remove one of them.
 
@@ -12,8 +12,8 @@ Where BanzaiSland is listed on CurseForge, Wago or WowUp you can install it like
 
 1. Close World of Warcraft completely.
 2. Unzip the BanzaiSland package. You get one folder called `BanzaiSland`.
-3. Copy that folder into your Retail AddOns folder: `World of Warcraft\_retail_\Interface\AddOns\BanzaiSland`.
-   You should see `BanzaiSland_Mainline.toc` (the Retail table of contents) directly inside the folder you copied.
+3. Replace the old addon folder in the selected client: `World of Warcraft\_retail_\Interface\AddOns\BanzaiSland` or `World of Warcraft\_forever_\Interface\AddOns\BanzaiSland`. Do not merge with a retired development build, which could leave old font files behind.
+   You should see both TOCs directly inside the folder. Both clients select `BanzaiSland_Mainline.toc`; it declares interfaces `120105, 16001`.
 4. Start the game. On the character screen, open **AddOns** and make sure **BanzaiSland** is ticked. If **Island** is also in the list, untick it.
 
 ## First start

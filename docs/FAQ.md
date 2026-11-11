@@ -13,7 +13,7 @@ No. They do the same job. If both are enabled, BanzaiSland prints one line and s
 No. BANZAI UI is optional. With BANZAI UI 1.3.8+ the BANZAI SLAND mark on the island becomes the one launcher for both.
 
 **Retail or Forever?**
-This release (1.0.0) is for World of Warcraft Retail. WoW Forever compatibility is the next milestone.
+The 1.0.1 candidate supports Retail 12.1.5 and Forever 1.60.1 with the same source/package. The selected Mainline TOC correction passed a real Forever test; the complete candidate awaits final live validation. The published 1.0.0 release remains Retail-only.
 
 **Which fonts can I choose?**
 Appearance › Display font: Automatic, BANZAI Default (Shojumaru at 105%, the default), Shojumaru, Ryujin Attack, Gang of Three, Osaka Sans, Sekaiwo, Xangda Shiny, Ninja Naruto and Information Font. Automatic uses BANZAI Default for fully supported strings and the Information Font otherwise; an alternate is drawn at its own size and falls back as a whole for strings it cannot show. The choice is independent of BANZAI UI's. [APPEARANCE.md](APPEARANCE.md#fonts)
