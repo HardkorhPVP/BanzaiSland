@@ -8,6 +8,7 @@ ignore:
   - LICENSE
   - NOTICE
   - README.md
+  - RELEASING.md
   - SOURCE-PROVENANCE.md
   - THIRD_PARTY_NOTICES.md
   - UPSTREAM.md
